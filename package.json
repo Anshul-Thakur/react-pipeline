@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write .",
     "ts:check": "tsc --noEmit",
     "test:e2e": "playwright test",
     "start": "webpack serve --mode development",
